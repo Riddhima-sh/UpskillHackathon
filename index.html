@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website design</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <h1 class="logo">INVICTA</h1>
+        <ul class="nav-links">
+            <li><a href="index.html" class="ctn">Home</a></li>
+            <li><a href="course.html" class="ctn">Courses</a></li>
+            <li><a href="#" class="ctn">Sessions</a></li>
+            <li><a href="checkout.html" class="ctn">Checkout</a></li>
+            <li><a href="faq.html" class="ctn">Help</a></li>
+            <li><a href="singup.html" class="ctn">SignUp</a>
+    </nav>
+    </li>
+    </ul>
+    <img src="menu-btn.png" alt="" class="menu-btn">
+    <header>
+        <div class="header-content">
+
+            <div class="line">
+                <h1>Enlightened Pedagogy</h1>
+                <a href="gallery.html" class="ctn">Explore</a>
+            </div>
+        </div>
+    </header>
+    <!-- ==introductory photos-->
+    <section class="animals">
+        <div class="title">
+            <h1>ABSTRACT</h1>
+            <div class="line"></div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1710582218628-4ec7485fbf4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fGFldTZyTC1qNmV3fHxlbnwwfHx8fHw%3D"
+                    width=200px height=500px alt="">
+                <h4>Technical Courses</h4>
+                <p>Technology is a gift of God. After the reward of life, it is possibly the greatest of God's gifts. It
+                    is the mother of civilizations, of Art and of Sciences.</p>
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1711343959870-ede122982777?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    width=200px height=500px alt="">
+                <h4>Non Technical Courses</h4>
+                <p>Having knowledge allows individuals to understand concepts, theories, and principles related to their
+                    field of work. It provides a foundation upon which skills can be developed.</p>
+            </div>
+        </div>
+    </section>
+    <!--3rd section-->
+    <section class="nature">
+        <div class="nature-content">
+            <h1> EXPLORE THE ACADEMIA</h1>
+            <div class="line"></div>
+            <br>
+            <p><b>Not every difficult and dangerous thing is suitable for training, but only that which is conducive to
+                    success in achieving the object of our effort.</p>
+            <a href="gallery.html" class="ctn">Let's Go</a>
+        </div>
+    </section>
+    <!--column image gallery-->
+    <section class="plants">
+        <div class="row">
+            <div class="col content-col">
+                <h1>MORE TO SCOUT</h1>
+                <div class="line"></div>
+                <p>Education is about learning skills and knowledge. It also means helping people to learn how to do
+                    things and support them to think about what they learn. It is also important for educators to teach
+                    ways to find and use information. Education needs research to find out how to make it better.</p>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="">
+                    <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="">
+                    <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <p>Wisdom is not a product of schooling but of the lifelong attempt to acquire it.</p>
+    </section>
+    <!--the things that makes menu button work-->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
